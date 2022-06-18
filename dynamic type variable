@@ -1,0 +1,16 @@
+//Dynamic type in c#
+using System;
+class GFG{
+    static public void Main(){
+        dynamic val1 =  "geeks";
+        dynamic val2 = 12345789;
+        dynamic val3 = 21324.12345789;
+        dynamic val4 = false;
+        
+        Console.WriteLine("Get the actual type of val1 {0} ",val1.GetType().ToString());
+        Console.WriteLine("Get the actual type of val2 {0} ",val2.GetType().ToString());
+        Console.WriteLine("Get the actual type of val3 {0} ",val3.GetType().ToString());
+        Console.WriteLine("Get the actual type of val4 {0} ",val4.GetType().ToString());
+        
+    }
+}
