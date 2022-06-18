@@ -1,0 +1,14 @@
+//Static varible
+
+using System;
+class Emp{
+    static double salary;
+    static String name = "RK";
+    
+    public static void Main(String[] arge)
+    {
+        Emp.salary = 10000000;
+        
+        Console.WriteLine(Emp.name +"s average salary: "+Emp.salary);
+    }
+}
