@@ -1,0 +1,20 @@
+//implicitly typed local variable
+using System;
+public class CGC{
+    
+    // var imp = 15;
+    static public void  Main(){
+        
+        var a = 50;
+        var b = "Welcome";
+        var c = 340.67d;
+        var d = false;
+        
+        Console.WriteLine("Type of 'a' is {0}", a.GetType());
+        Console.WriteLine("Type of 'b' is {0}", b.GetType());
+        Console.WriteLine("Type of 'c' is {0}", c.GetType());
+        Console.WriteLine("Type of 'd' is {0}", d.GetType());
+        
+        // Console.WriteLine(CGC.imp)
+    }
+}
