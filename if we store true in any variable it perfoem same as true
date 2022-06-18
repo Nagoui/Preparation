@@ -1,0 +1,10 @@
+using System;
+namespace ValueTypeTest{
+    class Geeks{
+        static void Main(){
+            bool b = true;
+            if(b==true)
+                Console.WriteLine("hello");
+        }
+    }
+}
