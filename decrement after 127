@@ -1,0 +1,34 @@
+using System;
+namespace ValueTypeTest{
+    class Geeks{
+        static void Main()
+        {
+            sbyte a = 126;
+            Console.WriteLine(a);
+            a++;
+            
+            Console.WriteLine(a);
+            a++;
+            Console.WriteLine(a);
+            a++;
+            Console.WriteLine(a);
+              a++;
+            Console.WriteLine(a);
+              a++;
+            Console.WriteLine(a);
+              a++;
+            Console.WriteLine(a);
+            a++;
+            Console.WriteLine(a);
+            a++;
+            Console.WriteLine(a);
+              a++;
+            Console.WriteLine(a);
+              a++;
+            Console.WriteLine(a);
+              a++;
+            Console.WriteLine(a);
+            
+        }
+    }
+}
