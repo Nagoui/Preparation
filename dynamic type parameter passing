@@ -1,0 +1,17 @@
+// dynamic type parameter in method
+
+using System;
+class GFG{
+    public static void addstr(dynamic s1,dynamic s2)
+    {
+        Console.WriteLine("= "+s1 +" "+ s2);
+    }
+    static public void Main(){
+        addstr("G","G");
+        addstr("Geeks","Gksfds");
+        addstr('c','d');
+        addstr("hello",1234);
+        addstr(12,13);
+        addstr(10.22,12.34f);
+    }
+}
