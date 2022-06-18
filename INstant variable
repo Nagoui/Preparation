@@ -1,0 +1,32 @@
+//Instance Variable
+
+using System;
+class Marks{
+    int engMarks;
+    int mathsMarks;
+    int phyMarks;
+    
+    public static void Main(String[] args){
+        Marks obj1 = new Marks();
+        obj1.engMarks = 90;
+        obj1.mathsMarks = 80;
+        obj1.phyMarks = 93;
+        
+        //second object
+        Marks obj2 = new Marks();
+        obj1.engMarks = 95;
+        obj2.mathsMarks  =  70;
+        obj2.phyMarks = 90;
+        
+        Console.WriteLine("Marks for first Object");
+        Console.WriteLine(obj1.engMarks);
+        Console.WriteLine(obj1.mathsMarks);
+        Console.WriteLine(obj1.phyMarks);
+        
+        //display marks of second objecgt
+        Console.WriteLine("marks for second object");
+        Console.WriteLine(obj2.engMarks);
+        Console.WriteLine(obj2.mathsMarks);
+        Console.WriteLine(obj2.phyMarks);
+    }
+}
