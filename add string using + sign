@@ -1,0 +1,19 @@
+using System;
+namespace ValueTypeTest{
+    class Geeks{
+        static void Main(){
+            string a = "Geeks";
+            
+            a+="for";
+            a=a+"geeks";
+            Console.WriteLine(a);
+            
+            object obj;
+            obj = 20;
+            Console.WriteLine(obj);
+            
+            Console.WriteLine(obj.GetType());
+            
+        }
+    }
+}
