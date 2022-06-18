@@ -1,0 +1,20 @@
+using System;
+class Geeks{
+    int a = 80;
+    static int b = 40;
+    const float max = 50;
+    readonly int k;
+    
+    //Constructure
+    public Geeks(){
+        this.k = 90;
+    }
+    
+    public static void Main(){
+        Geeks obj = new Geeks();
+        Console.WriteLine("the value of a is = "+obj.a);
+        Console.WriteLine("The value of b = "+Geeks.b);
+        Console.WriteLine("The value of max is = "+Geeks.max);
+        Console.WriteLine("The value of k is = "+obj.k);
+    }
+}
